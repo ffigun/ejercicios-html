@@ -1,2 +1,2 @@
-# pagina-web
-Ejercicios del curso Protrero Digital de Tres de Febrero
+# Ejercicios-Html
+Ejercicios web del curso Protrero Digital de Tres de Febrero.
