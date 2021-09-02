@@ -6,7 +6,7 @@
 ## No pueden faltar los siguientes items:
 1. Títulos y subtítulos
 2. Párrafos
-3. Listas <ul> y <ol>
+3. Listas `<ul>` y `<ol>`
 4. Insertar una imagen
 5. Insertar un video de youtube
 6. Insertar un audio (opcional)
