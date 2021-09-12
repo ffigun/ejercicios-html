@@ -22,7 +22,7 @@ img:hover, video:hover, iframe:hover, audio:hover {
 }
 
 ul {
-  list-style-image: url("./images/crepe_bullet.png");
+  list-style-image: url("../images/crepe_bullet.png");
 }
 
 h1, h2, h3 {
