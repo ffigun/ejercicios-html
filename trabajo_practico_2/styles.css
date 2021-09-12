@@ -1,0 +1,137 @@
+/*
+  Estilos para los elementos globales
+*/
+
+body {
+  font-family: Calibri;
+  font-size: 19px;
+  margin: 0% 10% 0% 10%;
+  background-image: url("./images/bg_lila.gif");
+}
+
+a {
+  color: #6a20b0;
+}
+
+a:hover {
+  color: #a052eb;
+}
+
+img:hover, video:hover, iframe:hover, audio:hover {
+  box-shadow: 0px 0px 13px 5px rgba(138,39,206,0.4);
+}
+
+ul {
+  list-style-image: url("./images/crepe_bullet.png");
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #8a5fb0;
+  font-size: 55px;
+  text-shadow: 0px 0px 15px #8a5fb0;
+}
+
+h2 {
+  color: #9c75bf;
+  font-size: 35px;
+  text-decoration-line: underline;
+}
+
+h3 {
+  color: #aa89c7;
+  font-size: 30px;
+  text-shadow: 0px 0px 20px rgba(138,39,206,0.4);
+}
+
+/*
+  Estilos para los divs
+*/
+
+#bloque_superior {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  margin-top: -25px;
+}
+
+#media {
+  width: 50%;
+  text-align: center;
+}
+
+#bloque_inferior {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-top: -30px;
+}
+
+#ingredientes_y_preparacion {
+  width: 50%;
+}
+
+#historia_y_geografia {
+  width: 50%;
+  padding-right: 25px;
+}
+
+#trivia {
+  width: 50%;
+  padding-left: 25px;
+}
+
+#sonido {
+  text-align: center;
+}
+
+/*
+  Estilos para los elementos
+*/
+
+.icono {
+  padding: 0px 50px;
+  height: 48px;
+  width: 48px;
+}
+
+.icono:hover {
+  box-shadow: none;
+}
+
+.texto_opcional {
+  color: #89739c;
+}
+
+.imagen_presentacion {
+  width: 70%;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px 3px rgba(138,39,206,0.4);
+}
+
+.video_explicacion {
+  width: 70%;
+  height: auto;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px 3px rgba(138,39,206,0.4);
+}
+
+.audio_pronunciacion {
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px 3px rgba(138,39,206,0.4);
+}
+
+.mapa_origen {
+  width: 80%;
+  height: 45%;
+  margin: 30px auto;
+  display:block;
+  border-style: none;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px 3px rgba(138,39,206,0.4);
+}
