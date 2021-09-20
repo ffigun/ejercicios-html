@@ -1,0 +1,18 @@
+body {
+  font-size: 22px;
+  font-family: "Calibri";
+  background-color: #e0f0fe;
+  background-image: url("./images/bg_celeste_fgf.gif");
+  background-attachment: fixed;
+  background-repeat: repeat;
+}
+
+h1 {
+  color: #2754b0;
+  text-shadow:
+}
+
+li {
+  list-style-image: url("./images/crepe_bullet.png");
+  padding: 10px;
+}
