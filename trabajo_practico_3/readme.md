@@ -1,0 +1,3 @@
+# Potrero Digital
+## Trabajo Práctico 3
+En base a la receta del Práctico 2: Realizar un maquetado de la página (sería bueno realizarlo en papel y luego compararlo con el producto final). Estructurar la página con las etiquetas semánticas (pueden utilizar contenedores div, pero dentro de estas etiquetas) header-nav-main-section-aside-footer... Crear un navegador con cuatro enlaces a paginas con otras recetas similares.(los enlaces se deben abrir en una pestaña nueva). En el footer deben colocar los enlaces a las redes sociales (preferiblemente con imágenes u iconos) Deben colocar un elemento flotante en la pagina que me redirija al whatsapp. Actualizar el repositorio de github y entegar el link a la githubpage en la plataforma.
