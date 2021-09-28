@@ -1,0 +1,160 @@
+body {
+  font-family: "Calibri";
+  font-size: 19px;
+  background-image: url("./images/bg_lila.gif");
+  margin: 2% 10% 2% 10%;
+}
+
+header {
+  vertical-align:sub;
+  height: 200px;
+}
+
+nav {
+  box-shadow: 0 0 3px 5px rgba(138,39,206,0.1);
+  background-color: rgba(219,206,255,0.35);
+  text-align: center;
+  padding: 1%;
+}
+
+nav a {padding: 1%;}
+
+section {
+  float: left;
+  width: 69%;
+  padding: 0 1% 0 1%;
+  box-sizing: border-box;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  padding-left: 1%;
+  box-sizing: border-box;
+}
+
+aside li {padding: 0 0 2% 0}
+
+footer {
+  clear: both;
+  text-align: right;
+  padding-top: 3%;
+}
+
+footer img {
+  width: 32px;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+a {color: #6a20b0;}
+
+a:visited {color: #d1ad75;}
+
+a:hover {font-weight: bold;}
+
+nav a {
+  text-decoration: none;
+  font-size: 1em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+ul {list-style-image: url("./images/crepe_bullet.png");}
+
+img:hover, video:hover, iframe:hover, audio:hover {
+  filter: drop-shadow(0px 0px 10px rgba(138,39,206,0.4));
+}
+
+h1, h2, h3 {font-weight: lighter;}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  text-shadow: 0 0 10px black;
+  z-index: 1;
+}
+
+h2 {
+  color: #9c75bf;
+  font-size: 30px;
+  text-decoration-line: underline;
+}
+
+h3 {
+  color: #d1ad75;
+  font-size: 27px;
+  text-shadow: 0 0 20px rgba(209,173,117,0.4);
+}
+
+header img {
+  position:absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: inherit;
+  z-index: -1;
+}
+
+header img:hover {filter: none;}
+
+.columna_ingredientes {
+  float: left;
+  width: 40%;
+}
+
+.columna_video {
+  text-align: center;
+  float: right;
+  width: 60%;
+}
+
+.fila::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer .pie_pagina {
+  width: inherit;
+  padding: 1%;
+  background-color: rgba(219,206,255,0.35);
+  box-shadow: 0 0 5px 5px rgba(138,39,206,0.1);
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 2%;
+  right: -48px;
+}
+
+.whatsapp img {width: 50%;}
+
+.texto_opcional {color: #89739c;}
+
+.video_explicacion {
+  width: 70%;
+  border-radius: 25px;
+  object-fit: cover;
+  filter: drop-shadow(0 0 5px rgba(138,39,206,0.4));
+}
+
+.audio_pronunciacion {
+  border-radius: 25px;
+  filter: drop-shadow(0 0 5px rgba(138,39,206,0.4));
+}
+
+.mapa_origen {
+  width: 90%;
+  height: 250px;
+  margin: 30px auto;
+  display:block;
+  border-style: none;
+  border-radius: 25px;
+  filter: drop-shadow(0 0 5px rgba(138,39,206,0.4));
+}
