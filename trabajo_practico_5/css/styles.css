@@ -10,7 +10,7 @@ body {
   font-family: 'Yaldevi';
   background-image: url("../images/bg_lila.gif");
   background-repeat: repeat;
-  margin: 2vh 6vw 2vh 6vw;
+  margin: 0 6vw 3vh 6vw;
 }
 
 header {height: 20vh;}
@@ -21,7 +21,7 @@ nav {
   background-color: rgba(219,206,255,0.25);
   text-align: center;
   padding: 1%;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 nav a {padding: 1%;}

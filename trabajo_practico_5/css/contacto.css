@@ -10,7 +10,7 @@ body {
   font-family: 'Yaldevi';
   background-image: url("../images/bg_lila.gif");
   background-repeat: repeat;
-  margin: 2vh 6vw 2vh 6vw;
+  margin: 0 6vw 3vh 6vw;
 }
 
 header {height: 20vh;}
@@ -54,7 +54,7 @@ h1 {
   font-family: 'Italianno', cursive;
   text-align: center;
   color: white;
-  font-size: 8vh;
+  font-size: 9vh;
   text-shadow: 0 0 0.3vw black;
   z-index: 1;
 }
