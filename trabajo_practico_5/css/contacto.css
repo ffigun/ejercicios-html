@@ -61,12 +61,12 @@ h1 {
 
 h1::before {
   content: '\2661_';
-  font-size: 0.4em;
+  font-size: 0.3em;
 }
 
 h1::after {
   content: '_\2661';
-  font-size: 0.4em;
+  font-size: 0.3em;
 }
 
 h2 {
