@@ -8,16 +8,17 @@
 
 body {
   font-family: 'Yaldevi';
-  font-size: 1.2rem;
   background-image: url("../images/bg_lila.gif");
+  background-repeat: repeat;
   margin: 2vh 6vw 2vh 6vw;
 }
 
 header {height: 20vh;}
 
 nav {
+  font-size: 1.2em;
   box-shadow: 0 0 0.5vw 0.3vw rgba(138,39,206,0.1);
-  background-color: rgba(219,206,255,0.35);
+  background-color: rgba(219,206,255,0.25);
   text-align: center;
   padding: 1%;
   margin-bottom: 1%;
@@ -26,17 +27,22 @@ nav {
 nav a {padding: 1%;}
 
 section {
+  font-size: 1.2em;
   float: left;
-  width: 69%;
+  width: 70%;
   padding: 0 1% 0 1%;
   box-sizing: border-box;
 }
 
 aside {
+  overflow-wrap: break-word;
+  font-size: 1em;
   float: right;
   width: 30%;
   padding-left: 1%;
   box-sizing: border-box;
+  background-color: rgba(219,206,255,0.25);
+  box-shadow: 0 0 0.5vw 0.3vw rgba(138,39,206,0.1);
 }
 
 aside li {padding: 0 0 2% 0}
@@ -49,12 +55,12 @@ footer {
 
 footer .pie_pagina {
   padding: 1%;
-  background-color: rgba(219,206,255,0.35);
+  background-color: rgba(219,206,255,0.25);
   box-shadow: 0 0 0.5vw 0.3vw rgba(138,39,206,0.1);
 }
 
 footer img {
-  width: 2%;
+  width: 2em;
   vertical-align: middle;
   padding-right: 1vw;
 }
@@ -78,17 +84,26 @@ h1, h2, h3 {
 h1 {
   font-family: 'Italianno', cursive;
   text-align: center;
-  line-height: 25%;
   color: white;
-  font-size: 6rem;
+  font-size: 9vh;
   text-shadow: 0 0 0.3vw black;
   z-index: 1;
+}
+
+h1::before {
+  content: '❤_';
+  font-size: 0.4em;
+}
+
+h1::after {
+  content: '_❤';
+  font-size: 0.4em;
 }
 
 h2 {
   font-family: 'Yaldevi';
   color: #9c75bf;
-  font-size: 1.8rem;
+  font-size: 1.5em;
   text-shadow: 0 0 0.5vw rgba(92,28,138,0.2);
   margin-top: 2vw;
 }
@@ -96,7 +111,7 @@ h2 {
 h3 {
   font-family: 'Yaldevi';
   color: #d1ad75;
-  font-size: 1.5rem;
+  font-size: 1.2em;
   text-shadow: 0 0 0.5vw rgba(209,173,117,0.3);
 }
 
@@ -104,44 +119,26 @@ header img {
   position:absolute;
   top: 0;
   left: 0;
-  object-fit: cover;
   width: 100%;
-  height: 22vh;
+  height: 20vh;
+  object-fit: cover;
   z-index: -1;
 }
 
 header img:hover {filter: none;}
 
-.columna_ingredientes {
-  float: left;
-  width: 40%;
-}
-
-.columna_video {
-  text-align: center;
-  float: right;
-  width: 60%;
-}
-
-.fila::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .whatsapp img {
   position: fixed;
-  width: 3vw;
-  bottom: 1vw;
+  width: 4em;
+  bottom: 1em;
   right: 0vw;
 }
 
 .texto_opcional {color: #89739c;}
 
 .video_explicacion {
-  width: 70%;
+  width: 75%;
   border-radius: 0.5vw;
-  object-fit: cover;
   filter: drop-shadow(0 0 0.4vw rgba(138,39,206,0.4));
 }
 
