@@ -1,6 +1,6 @@
 # Potrero Digital
 ## Trabajo Práctico 4
-A la receta del Practico 3 agregarle los siguientes ítems:
+### A la receta del Practico 3 agregarle los siguientes ítems:
 1. Crear un archivo con el nombre contacto.html dentro de la carpeta del proyecto
 2. Crear y linkear su propia hoja de estilos
 3. Insertar un formulario de por lo menos 4 input y un botón
