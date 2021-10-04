@@ -91,12 +91,12 @@ h1 {
 }
 
 h1::before {
-  content: '❤_';
+  content: '\2661_';
   font-size: 0.4em;
 }
 
 h1::after {
-  content: '_❤';
+  content: '_\2661';
   font-size: 0.4em;
 }
 
