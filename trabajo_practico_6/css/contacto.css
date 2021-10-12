@@ -22,6 +22,7 @@ body {
 
 section {
   float: left;
+  min-height: 65vh;
   width: 69%;
   padding: 0 1% 0 1%;
   box-sizing: border-box;
@@ -70,7 +71,6 @@ footer {
 }
 
 footer .pie_pagina {
-
   padding: 1%;
   background-color: rgba(219,206,255,0.35);
   box-shadow: 0 0 0.5vw 0.3vw rgba(138,39,206,0.1);
