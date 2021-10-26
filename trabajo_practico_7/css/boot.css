@@ -1,23 +1,11 @@
-.elemento-1 {
-  padding: 1vh;
-}
+.elemento-1 {padding: 1vh;}
 
-.elemento-2 {
- padding: 1vh;
-}
+.elemento-2 {padding: 1vh;}
 
-.elemento-3 {
- padding: 1vh;
-}
+.elemento-3 {padding: 1vh;}
 
-.elemento-4 {
-  padding: 1vh;
-}
+.elemento-4 {padding: 1vh;}
 
 .card-img-top:hover{filter: none;}
 
-.card:hover {filter: drop-shadow(0 0 0.4vw rgba(138,39,206,0.4));}
-
-.container {
-  background-color: red;
-}
+.container {background-color: red;}
