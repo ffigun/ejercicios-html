@@ -1,0 +1,56 @@
+main {
+  display: flex;
+}
+
+body {
+  background-color: #1f1c27;
+}
+
+header {
+  margin-top: 0px;
+}
+
+.encabezado {
+  position: relative;
+  text-align: center;
+}
+
+.texto-encabezado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#img-encabezado {
+  object-fit: cover;
+  width: 100%;
+}
+
+#h1-encabezado {
+  color: white;
+}
+
+#img-encabezado {
+  height: 200px;
+}
+
+.sub-encabezado {
+  padding: 6rem 0 6rem 0;
+}
+
+.pie {
+  padding: 2rem;
+}
+
+/* Bootstrap */
+.card-img-top {
+  padding: 2rem;
+}
+
+/* Computadoras de escritorio */
+@media (min-width: 992px) {
+  #img-encabezado {
+    height: 400px;
+  }
+}

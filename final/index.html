@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Receta de Crepes">
+  <meta name="keywords" content="IT, Servicio tecnico, Tecnologia, Microinformatica">
+  <meta name="author" content="Fernando Figun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript" src="./js/main.js"></script>
+  <link rel="icon" type="image/png" href="./media/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="./css/styles.css" rel="stylesheet">
+  <title>Fox Microinformática</title>
+</head>
+<body>
+
+  <!-- Barra de navegacion -->
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img class="px-2 pe-3" src="./media/fox.png" alt="Fox Microinformatica">Fox Microinformática</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./reparacion-de-pc.html">Reparación de PC</a></li>
+                <li><a class="dropdown-item" href="./limpieza-de-equipos.html">Limpieza de Equipos</a></li>
+                <li><a class="dropdown-item" href="./configuracion-de-smartphones.html">Configuración de Smartphones <span class="badge bg-success fw-light">New</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tips</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./seguridad-informatica.html">Seguridad informática</a></li>
+                <li><a class="dropdown-item" href="./cuidado-de-mi-equipo.html">Cuidado de mi equipo</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Encabezado -->
+  <header>
+    <div class="encabezado">
+      <img id="img-encabezado" src="./media/header.jpg" alt="Encabezado" class="img-responsive">
+      <div class="texto-encabezado">
+        <h1 class="display-1 text-light">Soluciones de Microinformática</h1>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <!-- Solucion -->
+    <div class="container-fluid bg-dark">
+      <div class="sub-encabezado">
+        <p class="display-4 text-center text-light">¿Tenés un problema con tus dispositivos?</p>
+        <p class="display-4 text-center text-light">Tenemos la solución.</p>
+      </div>
+    </div>
+
+    <!-- Servicios -->
+    <div class="container-fluid bg-light">
+      <div class="servicios">
+        <div class="row fs-5">
+          <p class="display-4 text-center text-dark pb-5">Conocé nuestros servicios</p>
+
+          <div class="card col-sm-8 col-md-5 col-xl-3 mx-auto mt-4 border-0 bg-light">
+            <img src="./media/pc.png" class="card-img-top" alt="Reparación de PC">
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title">Reparación de PC</h4>
+              <p class="card-text">Si tu equipo no funciona correctamente o requiere mantenimiento, podés dejarlo en nuestras manos.</p>
+              <a href="./reparacion-de-pc.html" class="mt-auto btn btn-primary btn-lg fs-4">Saber más</a>
+            </div>
+          </div>
+
+          <div class="card col-sm-8 col-md-5 col-xl-3 mx-auto mt-4 border-0 bg-light">
+            <img src="./media/limpieza.png" class="card-img-top" alt="Limpieza de Equipos">
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title">Limpieza de Equipos</h4>
+              <p class="card-text">Podemos limpiar tu equipo, lo que ves y lo que no ves. Mejorá el rendimiento y extendé su vida útil.</p>
+              <a href="./limpieza-de-equipos.html" class="mt-auto btn btn-primary btn-lg fs-4">Saber más</a>
+            </div>
+          </div>
+
+          <div class="card col-sm-8 col-md-5 col-xl-3 mx-auto mt-4 border-0 bg-light">
+            <img src="./media/telefono.png" class="card-img-top" alt="Configuración de Smartphones">
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title">Configuración de Smartphones <span class="badge bg-success fw-light">New</span></h4>
+              <p class="card-text">Si necesitás que configuremos tu smartphone a tu medida, podemos ayudarte.</p>
+              <a href="./configuracion-de-smartphones.html" class="mt-auto btn btn-primary btn-lg fs-4">Saber más</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container-fluid bg-dark">
+      <p class="display-4 text-center text-light pt-5">¿Querés conocer más?</p>
+
+      <!-- Carousel grande -->
+      <div class="carousel-grande">
+        <div id="car-grande" class="carousel border border-secondary slide bg-dark" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./media/carousel_1.jpg" class="d-block w-100" alt="Ensamblado de equipos">
+              <div class="carousel-caption">
+                <h4>Ensamblado de equipos</h4>
+                <p class="fs-5">Desde el primer paso del hardware hasta el último paso del software. Armamos tu equipo para que lo recibas listo para usar.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carousel_2.jpg" class="d-block w-100" alt="Mantenimiento activo y preventivo">
+              <div class="carousel-caption">
+                <h4>Mantenimiento activo y preventivo</h4>
+                <p class="fs-5">Cambiamos la pasta térmica, limpiamos los componentes críticos y tomamos medidas para ampliar la vida útil de tus equipos.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carousel_3.jpg" class="d-block w-100" alt="Diseños ATX y mATX">
+              <div class="carousel-caption">
+                <h4>Diseños ATX y mATX</h4>
+                <p class="fs-5">Si las dimensiones de tu nueva computadora son una condición, podemos diseñarte un equipo compacto sin sacrificar rendimiento.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carousel_4.jpg" class="d-block w-100" alt="Reparación de notebooks">
+              <div class="carousel-caption">
+                <h4>Reparación de notebooks</h4>
+                <p class="fs-5">Porque sabemos lo importante que se volvió el trabajo remoto, confianos el cuidado de una de tus principales herramientas de trabajo.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#car-grande" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#car-grande" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Carousel chico -->
+      <div class="carousel-chico">
+        <div id="car-chico" class="carousel slide border border-light bg-dark" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./media/carousel_sm_1.jpg" class="d-block w-100" alt="Ensamblado de equipos">
+              <div class="carousel-caption">
+                <h5>Ensamblado de equipos</h5>
+                <p class="fs-6">Desde el primer paso del hardware hasta el último paso del software.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carousel_sm_2.jpg" class="d-block w-100" alt="Mantenimiento activo y preventivo">
+              <div class="carousel-caption">
+                <h5>Mantenimiento completo</h5>
+                <p class="fs-6">Todas las medidas para ampliar la vida útil de tus equipos.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carousel_sm_3.jpg" class="d-block w-100" alt="Diseños ATX y mATX">
+              <div class="carousel-caption">
+                <h5>Diseños ATX y mATX</h5>
+                <p class="fs-6">Te diseñamos un equipo compacto sin sacrificar rendimiento.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./media/carousel_sm_4.jpg" class="d-block w-100" alt="Reparación de notebooks">
+              <div class="carousel-caption">
+                <h5>Reparación de notebooks</h5>
+                <p class="fs-6">Confianos el cuidado de una de tus principales herramientas de trabajo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#car-chico" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#car-chico" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de pagina -->
+  <footer>
+    <div class="container-fluid bg-light text-dark">
+      <div class="pie">
+        <div class="row">
+
+          <div class="col-sm-12 col-md-5 col-lg-3 mt-4 mb-4">
+            <p class="display-6">Enlaces útiles</p>
+            <p class="fs-4"><a href="https://es.stackoverflow.com/" target="_blank">Stack Overflow</a></p>
+            <p class="fs-4"><a href="https://blogs.windows.com/latam/" target="_blank">Windows Blogs</a></p>
+            <p class="fs-4"><a href="https://www.potrerodigital.org/" target="_blank">Potrero Digital</a></p>
+          </div>
+
+          <div class="col-sm-12 col-md-7 col-lg-4 mt-4 mb-4">
+            <p class="display-6">Acerca de</p>
+            <p class="fs-4">Fernando Figún, &copy 2021.</p>
+            <p class="fs-4">Los iconos del sitio son libres para uso personal y no comercial, y son cortesía de <a href="https://creativemarket.com/eucalyp">Eucalyp</a> de <a href="https://www.flaticon.com/">Flaticon</a>.</p>
+            <p class="fs-4">Las imágenes son propiedad intelectual del autor.</p>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-5 mt-4 mb-4">
+            <form class="row g-3">
+              <div class="mb-3">
+                <p id="contacto" class="display-6">Contacto</p>
+                <label for="nombre" class="form-label fs-4">Nombre</label>
+                <input type="email" class="form-control fs-5" id="direccion-mail" placeholder="nombre@dominio.com">
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label fs-4">Mensaje</label>
+                <textarea class="form-control fs-5" id="texto-mail" rows="3" placeholder="Escribinos tu mensaje"></textarea>
+              </div>
+              <div class="mb-3">
+                <div class="col-auto">
+                  <button type="submit" onclick="enviarFormulario()" class="btn btn-primary btn-lg mb-3 fs-4">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

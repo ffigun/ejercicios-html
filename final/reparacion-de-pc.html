@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Receta de Crepes">
+  <meta name="keywords" content="IT, Servicio tecnico, Tecnologia, Microinformatica, Reparacion de PC">
+  <meta name="author" content="Fernando Figun">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="./js/main.js"></script>
+
+  <link rel="icon" type="image/png" href="./media/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="./css/reparacion-de-pc.css" rel="stylesheet">
+  <title>Fox Microinformática</title>
+</head>
+<body>
+
+  <!-- Barra de navegacion -->
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img class="px-2 pe-3" src="./media/fox.png" alt="Fox Microinformatica">Fox Microinformática</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./reparacion-de-pc.html">Reparación de PC</a></li>
+                <li><a class="dropdown-item" href="./limpieza-de-equipos.html">Limpieza de Equipos</a></li>
+                <li><a class="dropdown-item" href="./configuracion-de-smartphones.html">Configuración de Smartphones <span class="badge bg-success fw-light">New</span></a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tips</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./seguridad-informatica.html">Seguridad informática</a></li>
+                <li><a class="dropdown-item" href="./cuidado-de-mi-equipo.html">Cuidado de mi equipo</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Encabezado -->
+  <header>
+    <div class="encabezado">
+      <img id="img-encabezado" src="./media/header.jpg" alt="Encabezado" class="img-responsive">
+      <div class="texto-encabezado">
+        <h1 class="display-1 text-light">Reparación de PC</h1>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <!-- Solucion -->
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="sub-encabezado">
+          <p class="display-4 text-center text-light">¿Tu computadora funciona mal?</p>
+          <p class="display-4 text-center text-light">No te preocupes.</p>
+        </div>
+        <div class="container p-4 bg-light">
+          <p class="display-6 text-center my-5">En Fox Microinformática contamos con la experiencia y los equipos necesarios para resolver los problemas de tu equipo.</p>
+          <p class="fs-4 my-5">¿En qué te podemos ayudar?</p>
+          <div class="accordion mx-5" id="acordeoncito">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="header1">
+                <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Infección de virus
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="header1" data-bs-parent="#acordeoncito">
+                <div class="accordion-body fs-5">
+                  Si tu equipo sufrió un ataque informático, mantenelo apagado y acercánoslo lo antes posible para que podamos realizar un <strong>control de daños</strong>.
+                  Dependiendo del tipo de virus y del tiempo que haya transcurrido, puede haberse perdido información. Desde Fox Microinformática intentaremos resguardar la mayor cantidad de
+                  información posible y eliminar la amenaza sólo reinstalando el sistema operativo como último recurso. Si querés saber un poco más sobre los distintos tipos de virus que pueden
+                  afectar a tu equipo y cómo protegerte, te recomendamos mirar la sección <a href="./seguridad-informatica.html">Seguridad informática</a>.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="header2">
+                <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Lentitud y errores críticos de software
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="header2" data-bs-parent="#acordeoncito">
+                <div class="accordion-body fs-5">
+                  Vamos a ser completamente sinceros. El rendimiento del software disminuye a lo largo del tiempo entre más software se instala y desinstala. Desde Fox Microinformática podemos realizar
+                  tareas de mantenimiento para mejorar el rendimiento de tu equipo o reparar software que no funciona sin tener que recurrir a una reinstalación del Sistema Operativo.<br>
+                  Si aún así preferís hacer un <i>borrón y cuenta nueva</i>, respaldamos tu información, reinstalamos el Sistema Operativo y volvemos a cargar tus datos en la computadora para que disfrutes
+                  de la experiencia de un equipo más ligero y rápido.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="header3">
+                <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Asesoramiento técnico y reemplazo de hardware
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="header3" data-bs-parent="#acordeoncito">
+                <div class="accordion-body fs-5">
+                  En Fox Microinformática amamos lo que hacemos. Y nos encanta encontrar las formas más eficientes de invertir el dinero a la hora de mejorar el rendimiento de nuestros equipos y los de
+                  nuestros clientes. Las computadoras constan de muchos componentes que trabajan en conjunto para llevar a cabo todas las tareas, y no todos los componentes se degradan al mismo ritmo. <br>
+                  Por eso, podemos ayudarte a encontrar las mejores opciones para poder extender la vida útil de tu equipo sin que tengas que comprar uno nuevo.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="header4">
+                <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Capacitación para el aprovechamiento de la tecnología
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="header4" data-bs-parent="#acordeoncito">
+                <div class="accordion-body fs-5">
+                  El mundo cambia a velocidades vertiginosas, y no todos tenemos el tiempo suficiente para estar constantemente actualizados. Decenas de siglas, servicios, dispositivos, plataformas que están
+                  en constante cambio y que pueden abrumar incluso a los más aplicados. En Fox Microinformática entendemos esta problemática y disponemos de técnicos que con gusto te ayudarán a comprender
+                  de manera práctica y amena sobre cómo sacar provecho de los distintos dispositivos y tecnologías que vos quieras utilizar.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p class="fs-4 my-5">Aunque tu inquietud no esté en esta brevísima lista, siempre podés <a href="./contacto.html">contactarnos</a> y con gusto te asesoraremos.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de pagina -->
+  <footer>
+    <div class="container-fluid bg-dark text-light">
+      <div class="pie">
+        <div class="row">
+
+          <div class="col-sm-12 col-md-5 col-lg-3 mt-4 mb-4">
+            <p class="display-6">Enlaces útiles</p>
+            <p class="fs-4"><a href="https://es.stackoverflow.com/" target="_blank">Stack Overflow</a></p>
+            <p class="fs-4"><a href="https://blogs.windows.com/latam/" target="_blank">Windows Blogs</a></p>
+            <p class="fs-4"><a href="https://www.potrerodigital.org/" target="_blank">Potrero Digital</a></p>
+          </div>
+
+          <div class="col-sm-12 col-md-7 col-lg-4 mt-4 mb-4">
+            <p class="display-6">Acerca de</p>
+            <p class="fs-4">Fernando Figún, &copy 2021.</p>
+            <p class="fs-4">Los iconos del sitio son libres para uso personal y no comercial, y son cortesía de <a href="https://creativemarket.com/eucalyp">Eucalyp</a> de <a href="https://www.flaticon.com/">Flaticon</a>.</p>
+            <p class="fs-4">Las imágenes son propiedad intelectual del autor.</p>
+          </div>
+
+          <div class="col-sm-12 col-md-12 col-lg-5 mt-4 mb-4">
+            <form class="row g-3">
+              <div class="mb-3">
+                <p id="contacto" class="display-6">Contacto</p>
+                <label for="nombre" class="form-label fs-4">Nombre</label>
+                <input type="email" class="form-control fs-5" id="direccion-mail" placeholder="nombre@dominio.com">
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label fs-4">Mensaje</label>
+                <textarea class="form-control fs-5" id="texto-mail" rows="3" placeholder="Escribinos tu mensaje"></textarea>
+              </div>
+              <div class="mb-3">
+                <div class="col-auto">
+                  <button type="submit" onclick="enviarFormulario()" class="btn btn-primary btn-lg mb-3 fs-4">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
